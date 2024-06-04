@@ -13,6 +13,13 @@ module.exports = {
       fontFamily: {
         sans: ["Figtree", "sans-serif"],
       },
+      colors: {
+        white: "#FEFEFE",
+        platinum: "#ECE8EA",
+        pale: "#D6BDAF",
+        beaver: "#837664",
+        "raisin-black": "#322F36",
+      },
     },
   },
   plugins: [],

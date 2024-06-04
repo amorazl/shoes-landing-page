@@ -30,8 +30,8 @@ const Navbar = () => {
   }, [isOpen]);
 
   return (
-    <nav id="navbar" className="fixed h-20 w-full bg-white shadow-xl xl:h-24">
-      <div className="flex h-full w-full items-center justify-between px-4 2xl:px-16">
+    <nav id="navbar" className="fixed h-20 w-full bg-white shadow-md">
+      <div className="mx-auto flex h-full w-full items-center justify-between px-6 md:px-20 2xl:px-16">
         <Link href="/">
           <Image
             src="/logo.png"
@@ -46,17 +46,17 @@ const Navbar = () => {
         <div className="hidden sm:flex">
           <ul className="hidden sm:flex">
             <Link href="/">
-              <li className="text-normal ml-12 font-medium text-gray-800 hover:border-b hover:font-semibold xl:text-lg">
+              <li className="ml-12 text-base font-medium text-gray-800 hover:border-b-2 hover:text-gray-950">
                 Home
               </li>
             </Link>
             <Link href="/products">
-              <li className="text-normal ml-12 font-medium text-gray-800 hover:border-b hover:font-semibold xl:text-lg">
+              <li className="ml-12 text-base font-medium text-gray-800 hover:border-b-2 hover:text-gray-950">
                 Products
               </li>
             </Link>
             <Link href="/about-us">
-              <li className="text-normal ml-12 font-medium text-gray-800 hover:border-b hover:font-semibold xl:text-lg">
+              <li className="ml-12 text-base font-medium text-gray-800 hover:border-b-2 hover:text-gray-950">
                 About Us
               </li>
             </Link>
@@ -71,7 +71,7 @@ const Navbar = () => {
           ref={navRef}
           className={
             isOpen
-              ? "fixed left-0 top-0 h-screen w-[65%] bg-gray-100 p-10 duration-500 ease-in sm:hidden"
+              ? "fixed left-0 top-0 h-screen w-[65%] bg-platinum p-10 duration-500 ease-in sm:hidden"
               : "fixed left-[-100%] top-0 p-10 duration-500 ease-in"
           }
         >

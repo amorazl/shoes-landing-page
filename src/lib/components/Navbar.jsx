@@ -30,7 +30,7 @@ const Navbar = () => {
   }, [isOpen]);
 
   return (
-    <nav id="navbar" className="fixed h-20 w-full bg-white shadow-md">
+    <nav id="navbar" className="fixed h-20 w-full bg-white shadow-sm">
       <div className="mx-auto flex h-full w-full items-center justify-between px-6 md:px-20 2xl:px-16">
         <Link href="/">
           <Image
@@ -47,17 +47,17 @@ const Navbar = () => {
           <ul className="hidden sm:flex">
             <Link href="/">
               <li className="ml-12 text-base font-medium text-gray-800 hover:border-b-2 hover:text-gray-950">
-                Home
+                HOME
               </li>
             </Link>
             <Link href="/products">
               <li className="ml-12 text-base font-medium text-gray-800 hover:border-b-2 hover:text-gray-950">
-                Products
+                PRODUCTS
               </li>
             </Link>
             <Link href="/about-us">
               <li className="ml-12 text-base font-medium text-gray-800 hover:border-b-2 hover:text-gray-950">
-                About Us
+                ABOUT US
               </li>
             </Link>
           </ul>
@@ -87,7 +87,7 @@ const Navbar = () => {
                   onClick={() => setIsOpen(false)}
                   className="mb-4 cursor-pointer pt-4 hover:border-b-2 hover:font-medium"
                 >
-                  Home
+                  HOME
                 </li>
               </Link>
               <Link href="/products">
@@ -95,7 +95,7 @@ const Navbar = () => {
                   onClick={() => setIsOpen(false)}
                   className="mb-4 cursor-pointer pt-4 hover:border-b-2 hover:font-medium"
                 >
-                  Products
+                  PRODUCTS
                 </li>
               </Link>
               <Link href="/about-us">
@@ -103,7 +103,7 @@ const Navbar = () => {
                   onClick={() => setIsOpen(false)}
                   className="mb-4 cursor-pointer pt-4 hover:border-b-2 hover:font-medium"
                 >
-                  About Us
+                  ABOUT US
                 </li>
               </Link>
             </ul>

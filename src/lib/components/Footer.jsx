@@ -91,7 +91,7 @@ export default function Footer() {
         {/* Copyright Section */}
         <div className="mx-auto mt-3 px-5 text-center md:px-16">
           <div className="border-t border-gray-300"></div>
-          <p className="my-5 text-sm text-gray-600">
+          <p className="mb-2 mt-5 text-sm text-gray-600">
             Copyright &copy; 2024 Fakultas Teknik Informatika Untirta
           </p>
         </div>

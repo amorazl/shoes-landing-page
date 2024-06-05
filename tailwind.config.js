@@ -18,6 +18,7 @@ module.exports = {
         platinum: "#ECE8EA",
         pale: "#D6BDAF",
         beaver: "#837664",
+        grayish: "#ced4da",
         "raisin-black": "#322F36",
       },
     },

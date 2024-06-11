@@ -30,7 +30,8 @@ export default function Home() {
 
   return (
     <>
-      <div className="container mx-auto mb-20 mt-5 flex flex-col items-center md:flex-row">
+      <div className="container mx-auto mt-8 flex flex-col items-center md:flex-row">
+        {/* TEXT SECTION */}
         <div className="md:w-1/2">
           <h1 className="text-4xl font-extrabold uppercase text-raisin-black md:text-5xl xl:text-6xl">
             Just Do It: Find Your Perfect Nike Fit.
@@ -39,9 +40,10 @@ export default function Home() {
           <p className="text-xl font-semibold text-raisin-black">
             Where Innovation Meets Style
           </p>
-          <div className="mt-10 flex h-20 w-2/4 items-center justify-center gap-x-3 rounded-2xl bg-neutral-100">
+
+          <div className="mt-10 flex h-16 w-full items-center justify-center gap-x-3 rounded-2xl bg-neutral-100 sm:mt-10 sm:h-20 sm:w-3/4 md:w-2/4">
             <div
-              className="relative mr-5 h-14 w-14 rounded-xl border-4 border-[#ffffff]"
+              className="relative mr-5 h-14 w-14 rounded-xl border-4 border-[#ffffff] sm:mr-5 sm:h-14 sm:w-14"
               onMouseEnter={() => setHovered(true)}
               onMouseLeave={() => setHovered(false)}
               onClick={handleClick}
@@ -55,9 +57,9 @@ export default function Home() {
                 className="cursor-pointer rounded-xl"
               />
               {(hovered || clicked) && (
-                <div className="absolute left-1/2 top-full mt-3 w-40 -translate-x-1/2 transform rounded-lg bg-white p-2 text-center text-black shadow-lg">
+                <div className="bg-smoke absolute left-1/2 top-full mt-2 w-32 -translate-x-1/2 transform rounded-lg p-2 text-center text-black shadow-lg sm:mt-3 sm:w-40">
                   <div className="relative">
-                    <div className="absolute left-1/2 top-[-8px] h-0 w-0 -translate-x-1/2 border-b-8 border-l-8 border-r-8 border-transparent border-b-white"></div>
+                    <div className="border-b-smoke absolute left-1/2 top-[-8px] h-0 w-0 -translate-x-1/2 border-b-8 border-l-8 border-r-8 border-transparent"></div>
                     <Link href="/products" className="hover:text-gray-600">
                       See What&apos;s New!
                     </Link>
@@ -65,15 +67,18 @@ export default function Home() {
                 </div>
               )}
             </div>
-            <div className="h-12 w-12 rounded-full border border-gray-300 bg-white duration-100 hover:scale-110"></div>
-            <div className="h-12 w-12 rounded-full bg-grayish duration-100 hover:scale-110"></div>
-            <div className="h-12 w-12 rounded-full bg-raisin-black duration-100 hover:scale-110"></div>
+            <div className="bg-smoke h-10 w-10 rounded-full border border-gray-300 duration-100 hover:scale-110 sm:h-12 sm:w-12"></div>
+            <div className="h-10 w-10 rounded-full bg-grayish duration-100 hover:scale-110 sm:h-12 sm:w-12"></div>
+            <div className="h-10 w-10 rounded-full bg-raisin-black duration-100 hover:scale-110 sm:h-12 sm:w-12"></div>
           </div>
-          <div className="mt-5 text-end">
+
+          <div className="mt-10 text-end">
             <p className="font-medium">Where Modern Meets Majestic:</p>
             <p className="font-bold">Discover Nike.</p>
           </div>
         </div>
+
+        {/* IMAGE SECTION */}
         <div className="md:w-1/2">
           <Image
             src="/shoes-home.png"

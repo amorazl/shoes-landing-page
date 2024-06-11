@@ -30,7 +30,7 @@ const Navbar = () => {
   }, [isOpen]);
 
   return (
-    <nav id="navbar" className="fixed z-10 h-20 w-full bg-white shadow-sm">
+    <nav id="navbar" className="bg-smoke fixed z-10 h-20 w-full shadow-sm">
       <div className="mx-auto flex h-full w-full items-center justify-between px-6 md:px-20 2xl:px-16">
         <Link href="/">
           <Image
@@ -46,17 +46,17 @@ const Navbar = () => {
         <div className="hidden sm:flex">
           <ul className="hidden sm:flex">
             <Link href="/">
-              <li className="ml-12 text-base font-medium text-gray-600 hover:border-b-2 hover:text-gray-950">
+              <li className="ml-12 text-base font-medium text-gray-950 hover:border-b-2 hover:text-gray-600">
                 HOME
               </li>
             </Link>
             <Link href="/products">
-              <li className="ml-12 text-base font-medium text-gray-600 hover:border-b-2 hover:text-gray-950">
+              <li className="ml-12 text-base font-medium text-gray-950 hover:border-b-2 hover:text-gray-600">
                 PRODUCTS
               </li>
             </Link>
             <Link href="/about-us">
-              <li className="ml-12 text-base font-medium text-gray-600 hover:border-b-2 hover:text-gray-950">
+              <li className="ml-12 text-base font-medium text-gray-950 hover:border-b-2 hover:text-gray-600">
                 ABOUT US
               </li>
             </Link>

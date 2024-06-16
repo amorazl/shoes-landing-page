@@ -12,7 +12,7 @@ export default function LandingPage() {
         pageTitle="Nike. Stride and Hike."
         pageDescription="Welcome to Our Website"
       />
-      <main className="min-h-screen items-center justify-center bg-platinum p-24">
+      <main className="min-h-screen items-center justify-center bg-platinum px-6 py-24 md:p-24">
         <div className="container mx-auto">
           <Home />
           <NewRelease />

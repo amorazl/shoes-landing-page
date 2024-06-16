@@ -3,6 +3,14 @@ import Link from "next/link";
 import Image from "next/image";
 
 import { IoMenuOutline, IoCloseOutline } from "react-icons/io5";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,7 +38,7 @@ const Navbar = () => {
   }, [isOpen]);
 
   return (
-    <nav id="navbar" className="bg-smoke fixed z-10 h-20 w-full shadow-sm">
+    <nav id="navbar" className="fixed z-10 h-20 w-full bg-smoke shadow-sm">
       <div className="mx-auto flex h-full w-full items-center justify-between px-6 md:px-20 2xl:px-16">
         <Link href="/">
           <Image
@@ -50,11 +58,18 @@ const Navbar = () => {
                 HOME
               </li>
             </Link>
-            <Link href="/products">
-              <li className="ml-12 text-base font-medium text-gray-950 hover:border-b-2 hover:text-gray-600">
-                PRODUCTS
-              </li>
-            </Link>
+            <li className="ml-12 text-base font-medium text-gray-950 hover:border-b-2 hover:text-gray-600">
+              <DropdownMenu>
+                <DropdownMenuTrigger>PRODUCTS</DropdownMenuTrigger>
+                <DropdownMenuContent>
+                  <DropdownMenuLabel>Categories</DropdownMenuLabel>
+                  <DropdownMenuSeparator />
+                  <DropdownMenuItem>MEN</DropdownMenuItem>
+                  <DropdownMenuItem>WOMEN</DropdownMenuItem>
+                  <DropdownMenuItem>KIDS</DropdownMenuItem>
+                </DropdownMenuContent>
+              </DropdownMenu>
+            </li>
             <Link href="/about-us">
               <li className="ml-12 text-base font-medium text-gray-950 hover:border-b-2 hover:text-gray-600">
                 ABOUT US
@@ -90,18 +105,19 @@ const Navbar = () => {
                   HOME
                 </li>
               </Link>
-              <Link href="/products">
-                <li
-                  onClick={() => setIsOpen(false)}
-                  className="mb-4 cursor-pointer pt-4 hover:border-b-2 hover:font-medium"
-                >
-                  PRODUCTS
-                </li>
-              </Link>
+              <li
+                onClick={() => setIsOpen(false)}
+                className="mb-4 cursor-pointer hover:border-b-2 hover:font-medium"
+              >
+                PRODUCTS
+                <p className="ml-3 mt-2 text-sm">MEN</p>
+                <p className="ml-3 mt-2 text-sm">WOMEN</p>
+                <p className="ml-3 mt-2 text-sm">KIDS</p>
+              </li>
               <Link href="/about-us">
                 <li
                   onClick={() => setIsOpen(false)}
-                  className="mb-4 cursor-pointer pt-4 hover:border-b-2 hover:font-medium"
+                  className="mb-4 cursor-pointer hover:border-b-2 hover:font-medium"
                 >
                   ABOUT US
                 </li>

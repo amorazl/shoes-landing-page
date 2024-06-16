@@ -4,7 +4,7 @@ export default function Detail() {
   return (
     <>
       <div className="my-10 flex flex-col items-center py-5 md:flex-row">
-        <div className="md:w-3/5">
+        <div className="py-8 sm:w-full md:w-3/5">
           <Image
             src="/highlight.png"
             alt="detail product"
@@ -16,8 +16,8 @@ export default function Detail() {
           <p className="text-lg font-medium uppercase">
             Nike: Redefining Comfort <br /> and Performance
           </p>
-          <div className="mt-4 w-80 border-b border-raisin-black"></div>
-          <p className="my-12 text-5xl font-bold">
+          <div className="w-50 mt-4 border-b border-raisin-black lg:w-80"></div>
+          <p className="my-7 text-4xl font-bold lg:my-12 lg:text-5xl">
             COMFORTABLE <br /> WEARING
           </p>
           <p>

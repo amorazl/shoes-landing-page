@@ -17,10 +17,10 @@ export default function Highlight() {
 
   return (
     <>
-      <div className="my-12 py-12">
+      <div className="my-12 md:py-12">
         <p className="font-semibold text-gray-700">NEW RELEASES</p>
         <div className="mb-10 mt-3 border-b border-gray-500"></div>
-        <div className="grid grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 gap-8 gap-y-10 sm:grid-cols-2 md:gap-y-7 lg:grid-cols-3">
           {newReleaseData.map((item) => (
             <div className="flex flex-col" key={item.id}>
               <div
@@ -43,7 +43,7 @@ export default function Highlight() {
                   </>
                 )}
               </div>
-              <div className="mx-3 mt-5 flex items-center justify-between">
+              <div className="mx-3 mt-3 flex items-center justify-between md:mt-5">
                 <div className="flex flex-col">
                   <p className="mb-1 text-lg font-semibold">{item.name}</p>
                   <p>{formatCurrency(item.price)}</p>

@@ -9,7 +9,7 @@ export default function Categories() {
       <div className="my-10 py-10 text-white">
         <p className="font-semibold text-gray-700">CATEGORIES</p>
         <div className="mb-10 mt-3 border-b border-gray-500"></div>
-        <div className="grid grid-cols-3 gap-24">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-16 xl:gap-24">
           {categoriesData.map((item) => (
             <Link key={item.id} href={item.path}>
               <div className="flex items-center justify-center rounded-xl border bg-raisin-black shadow-md transition duration-300 hover:border-2 hover:border-raisin-black hover:bg-white hover:text-black">

@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <>
       <footer className="bg-smoke py-5">
-        <div className="mx-auto flex h-full w-full items-center justify-between p-5 md:px-20 2xl:px-16">
+        <div className="mx-auto flex h-full w-full items-center justify-between p-6 md:px-20 2xl:px-16">
           <div className="grid grid-cols-10 gap-x-5 gap-y-8">
             {/* Company Section */}
             <div className="col-span-10 md:col-span-10 lg:col-span-5 xl:col-span-4">

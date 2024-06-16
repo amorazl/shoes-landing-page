@@ -51,6 +51,7 @@ const Navbar = () => {
           />
         </Link>
 
+        {/* DESKTOP VIEW */}
         <div className="hidden sm:flex">
           <ul className="hidden sm:flex">
             <Link href="/">
@@ -78,16 +79,16 @@ const Navbar = () => {
           </ul>
         </div>
 
+        {/* MOBILE VIEW */}
         <div onClick={handleNav} className="cursor-pointer pl-24 md:hidden">
           <IoMenuOutline size={25} />
         </div>
-
         <div
           ref={navRef}
           className={
             isOpen
-              ? "fixed left-0 top-0 h-screen w-[65%] bg-platinum p-10 duration-500 ease-in sm:hidden"
-              : "fixed left-[-100%] top-0 p-10 duration-500 ease-in"
+              ? "fixed left-0 top-0 h-screen w-[65%] bg-platinum p-10 shadow-lg duration-500 ease-in sm:hidden"
+              : "fixed left-[-100%] top-0 p-10 shadow-lg duration-500 ease-in"
           }
         >
           <div className="flex w-full items-center justify-end">

@@ -22,7 +22,7 @@ module.exports = {
       },
       colors: {
         smoke: "#FEFEFE",
-        platinum: "#ECE8EA",
+        platinum: "#f7f5f6",
         pale: "#D6BDAF",
         beaver: "#837664",
         grayish: "#ced4da",

@@ -92,7 +92,7 @@ export default function Footer() {
         <div className="mx-auto mt-3 px-5 text-center md:px-16">
           <div className="border-t border-gray-300"></div>
           <p className="mb-2 mt-5 text-sm text-gray-600">
-            Copyright &copy; 2024 Fakultas Teknik Informatika Untirta
+            &copy; 2024 MK Pemrograman Mobile, All Rights Reserved.
           </p>
         </div>
       </footer>

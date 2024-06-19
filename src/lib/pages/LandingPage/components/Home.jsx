@@ -40,7 +40,6 @@ export default function Home() {
           <p className="text-lg font-semibold text-raisin-black lg:text-xl">
             Where Innovation Meets Style
           </p>
-
           <div className="mt-10 flex h-20 w-4/5 items-center justify-center gap-x-3 rounded-2xl bg-[#edeaec] md:w-10/12 lg:w-3/4 xl:w-2/4">
             <div
               className="relative mr-5 h-14 w-14 rounded-xl border-4 border-white sm:mr-5 sm:h-14 sm:w-14"
@@ -71,7 +70,6 @@ export default function Home() {
             <div className="h-10 w-10 rounded-full bg-grayish duration-100 hover:scale-110 lg:h-12 lg:w-12"></div>
             <div className="h-10 w-10 rounded-full bg-raisin-black duration-100 hover:scale-110 lg:h-12 lg:w-12"></div>
           </div>
-
           <div className="mt-10 text-end">
             <p className="font-medium">Where Modern Meets Majestic:</p>
             <p className="font-bold">Discover Nike.</p>

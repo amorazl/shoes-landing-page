@@ -2,9 +2,9 @@ import { useState } from "react";
 import Image from "next/image";
 import { IoStar } from "react-icons/io5";
 
-import { newReleaseData } from "@/lib/constants/new-release";
+import { bestSellerData } from "@/lib/constants/best-seller";
 
-export default function Highlight() {
+export default function BestSeller() {
   const [hovered, setHovered] = useState(null);
 
   function formatCurrency(amount) {
@@ -18,10 +18,10 @@ export default function Highlight() {
   return (
     <>
       <div className="my-12 md:py-12">
-        <p className="font-semibold text-gray-700">NEW RELEASES</p>
+        <p className="font-semibold text-gray-700">BEST SELLER</p>
         <div className="mb-10 mt-3 border-b border-gray-500"></div>
         <div className="grid grid-cols-1 gap-8 gap-y-10 sm:grid-cols-2 md:gap-y-7 lg:grid-cols-3">
-          {newReleaseData.map((item) => (
+          {bestSellerData.map((item) => (
             <div className="flex flex-col" key={item.id}>
               <div
                 className="relative flex h-64 items-center justify-center rounded-xl bg-white transition-all duration-300 ease-in-out"

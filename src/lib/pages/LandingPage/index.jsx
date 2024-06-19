@@ -1,6 +1,6 @@
 import HEAD from "../../components/Head";
 import Home from "./components/Home";
-import NewRelease from "./components/NewRelease";
+import BestSeller from "./components/BestSeller";
 import Highlight from "./components/Highlight";
 import Categories from "./components/Categories";
 import Faq from "./components/Faq";
@@ -15,7 +15,7 @@ export default function LandingPage() {
       <main className="min-h-screen items-center justify-center bg-platinum px-5 py-24 md:px-10 lg:p-24">
         <div className="container mx-auto">
           <Home />
-          <NewRelease />
+          <BestSeller />
           <Highlight />
           <Categories />
           <Faq />

@@ -1,4 +1,4 @@
-export const newReleaseData = [
+export const bestSellerData = [
   {
     id: "1",
     image: "/shoes-home.png",

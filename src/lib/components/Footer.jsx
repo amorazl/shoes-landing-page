@@ -72,7 +72,7 @@ export default function Footer() {
                 </p>
                 <p className="menu-link mt-3 text-base">
                   Phone:
-                  <Link href="tel:021-3358-1616"> +1 (800) 123-4567</Link>
+                  <Link href="tel:021-3358-1616"> (+62) 111-234-567</Link>
                 </p>
               </div>
             </div>

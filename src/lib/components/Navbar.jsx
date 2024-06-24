@@ -65,9 +65,15 @@ const Navbar = () => {
                 <DropdownMenuContent>
                   <DropdownMenuLabel>Categories</DropdownMenuLabel>
                   <DropdownMenuSeparator />
-                  <DropdownMenuItem>MEN</DropdownMenuItem>
-                  <DropdownMenuItem>WOMEN</DropdownMenuItem>
-                  <DropdownMenuItem>KIDS</DropdownMenuItem>
+                  <Link href="/products/men">
+                    <DropdownMenuItem>MEN</DropdownMenuItem>
+                  </Link>
+                  <Link href="/products/women">
+                    <DropdownMenuItem>WOMEN</DropdownMenuItem>
+                  </Link>
+                  <Link href="/products/kids">
+                    <DropdownMenuItem>KIDS</DropdownMenuItem>
+                  </Link>
                 </DropdownMenuContent>
               </DropdownMenu>
             </li>
@@ -111,9 +117,15 @@ const Navbar = () => {
                 className="mb-4 cursor-pointer hover:border-b-2 hover:font-medium"
               >
                 PRODUCTS
-                <p className="ml-3 mt-2 text-sm">MEN</p>
-                <p className="ml-3 mt-2 text-sm">WOMEN</p>
-                <p className="ml-3 mt-2 text-sm">KIDS</p>
+                <Link href="/products/men">
+                  <p className="ml-3 mt-2 text-sm">MEN</p>
+                </Link>
+                <Link href="/products/women">
+                  <p className="ml-3 mt-2 text-sm">WOMEN</p>
+                </Link>
+                <Link href="/products/kids">
+                  <p className="ml-3 mt-2 text-sm">KIDS</p>
+                </Link>
               </li>
               <Link href="/about-us">
                 <li

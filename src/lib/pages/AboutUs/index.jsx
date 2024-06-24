@@ -1,3 +1,4 @@
+import HEAD from "../../components/Head";
 import Home from "./components/Home";
 import AboutGlance from "./components/AboutGlance";
 import HowWeDo from "./components/HowWeDo";
@@ -5,6 +6,10 @@ import HowWeDo from "./components/HowWeDo";
 export default function AboutUs() {
   return (
     <>
+      <HEAD
+        pageTitle="Nike. About Our Company"
+        pageDescription="Welcome to Our Website"
+      />
       <main className="min-h-screen items-center justify-center bg-platinum">
         {/* COMPONENTS */}
         <Home />

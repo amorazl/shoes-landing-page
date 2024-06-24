@@ -14,11 +14,11 @@ export default function Footer() {
                 <Image src="/logo.png" alt="logo" width={70} height={70} />
                 <p className="ms-2 text-2xl font-extrabold">NIKE.</p>
               </div>
-              <p className="mt-3 text-lg font-semibold text-raisin-black">
-                Explore our exclusive collection and elevate your performance
-                with shoes designed for champions.
+              <p className="mt-3 pr-5 text-lg font-semibold text-raisin-black">
+                Elevate your performance with our exclusive collection designed
+                for champions.
               </p>
-              <div className="mt-5 flex gap-5">
+              <div className="mt-8 flex gap-5">
                 <div className="flex h-9 w-9 cursor-pointer place-content-center items-center rounded-full border-2 border-gray-900 hover:border-gray-500 hover:duration-300">
                   <Link
                     href="https://www.facebook.com/"

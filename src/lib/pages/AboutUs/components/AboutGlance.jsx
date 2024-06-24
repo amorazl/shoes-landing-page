@@ -4,8 +4,10 @@ export default function AboutGlance() {
   return (
     <>
       <div className="container mb-32 mt-10">
-        <p className="text-xl font-bold">At A Glance</p>
-        <div className="mb-12 mt-3 border-b border-gray-400"></div>
+        <p className="mb-3 text-center text-2xl font-bold text-[#1b204b]">
+          AT A GLANCE
+        </p>
+        <div className="mx-auto mb-10 w-20 border-b-2 border-[#204383]"></div>
         <div className="mx-0 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 xl:mx-24 xl:gap-16">
           <div className="rounded-xl bg-white p-10">
             <Image

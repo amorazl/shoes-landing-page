@@ -7,8 +7,8 @@ export default function Home() {
         <p className="mb-4 bg-gradient-to-r from-[#1b204b] from-20% via-[#7c7bf8] bg-clip-text text-center text-3xl font-bold text-transparent">
           KNOW WHO WE ARE
         </p>
-        <div className="mx-auto mb-10 w-24 border-b-4 border-[#1b204b]"></div>
-        <div className="mx-32 mb-5 flex gap-6">
+        <div className="mx-auto mb-10 w-24 border-b-4 border-[#4f4dd4]"></div>
+        <div className="mx-auto mb-5 flex flex-col gap-6 md:flex-row lg:mx-32">
           <Image
             src="/aboutus-01.jpg"
             alt="about-us"
@@ -24,7 +24,14 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="mx-32 flex gap-6">
+        <div className="mx-auto flex flex-col gap-6 md:flex-row lg:mx-32">
+          <Image
+            src="/aboutus-02.jpg"
+            alt="about-us"
+            width={200}
+            height={200}
+            className="rounded-3xl md:hidden"
+          />
           <div className="rounded-3xl bg-[#2f2e72] p-12 text-white">
             <p className="mb-3 text-xl font-semibold">
               International Standards
@@ -38,7 +45,7 @@ export default function Home() {
             alt="about-us"
             width={200}
             height={200}
-            className="rounded-3xl"
+            className="hidden rounded-3xl md:block"
           />
         </div>
       </div>

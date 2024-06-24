@@ -26,6 +26,7 @@ module.exports = {
         pale: "#D6BDAF",
         beaver: "#837664",
         grayish: "#ced4da",
+        midnight: "#1b204b",
         "raisin-black": "#322F36",
 
         border: "hsl(var(--border))",

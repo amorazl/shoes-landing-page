@@ -11,7 +11,7 @@ import { faqData } from "@/lib/constants/faq";
 export default function Faq() {
   return (
     <>
-      <div className="py-6 md:py-12">
+      <div className="py-10 md:py-12">
         <div className="mt-8 flex h-auto flex-col items-start md:h-64 md:flex-row md:items-center">
           <div className="md:w-1/2">
             <p className="mb-2 text-lg font-bold">FAQ</p>

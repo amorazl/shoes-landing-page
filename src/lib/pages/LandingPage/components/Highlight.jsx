@@ -4,7 +4,7 @@ export default function Detail() {
   return (
     <>
       <div className="my-10 flex flex-col items-center py-5 md:flex-row">
-        <div className="py-8 sm:w-full md:w-3/5">
+        <div className="sm:w-full md:w-3/5">
           <Image
             src="/highlight.png"
             alt="detail product"

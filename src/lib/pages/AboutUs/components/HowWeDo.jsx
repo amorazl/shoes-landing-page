@@ -5,10 +5,10 @@ import { howWeDoData } from "@/lib/constants/about-us";
 export default function HowWeDo() {
   return (
     <>
-      <div className="bg-[#d2d4d8] py-8">
-        <div className="px-5 py-12 md:px-10 lg:px-24">
+      <div className="bg-[#d2d4d8] py-5">
+        <div className="container py-12">
           <p className="mb-10 text-3xl font-bold lg:text-5xl">How We Do</p>
-          <div className="mb-16 mt-3 border-b border-gray-400"></div>
+          <div className="mb-12 mt-3 border-b border-gray-400"></div>
           <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
             {howWeDoData.map((item, i) => (
               <div key={i} className="my-4 border-r-2 border-gray-400">

@@ -12,7 +12,7 @@ export default function Faq() {
   return (
     <>
       <div className="py-10 md:py-12">
-        <div className="mt-8 flex h-auto flex-col items-start md:h-64 md:flex-row md:items-center">
+        <div className="flex h-auto flex-col items-start md:h-64 md:flex-row md:items-center">
           <div className="md:w-1/2">
             <p className="mb-2 text-lg font-bold">FAQ</p>
             <h1 className="text-5xl font-extrabold lg:text-6xl">Frequently</h1>

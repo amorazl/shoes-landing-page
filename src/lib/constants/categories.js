@@ -4,20 +4,20 @@ export const categoriesData = [
     image: "/men.png",
     alt: "men-category",
     title: "MEN",
-    path: "/products/men",
+    path: "/men",
   },
   {
     id: 2,
     image: "/women.png",
     alt: "men-category",
     title: "WOMEN",
-    path: "/products/women",
+    path: "/women",
   },
   {
     id: 3,
     image: "/kids.png",
     alt: "men-category",
     title: "KIDS",
-    path: "/products/kids",
+    path: "/kids",
   },
 ];

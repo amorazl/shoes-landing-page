@@ -7,11 +7,11 @@ export default function Home() {
       <div id="main-cover" className="mb-3 bg-platinum">
         <div className="container pb-16 pt-36">
           <p className="text-4xl font-light tracking-wider">
-            MOVE IT <span className="font-bold">MEN</span>
+            POWER STEPS <span className="font-bold">WOMEN</span>
           </p>
           <p className="mb-12 mt-3 text-gray-500">
-            Hitting the gym, running the track, or stepping outside, find your
-            perfect pair.
+            Your bestie from workouts to everyday adventures, guide you to
+            enjoying a casual day out.
           </p>
           <a
             href="#list-products"
@@ -28,7 +28,7 @@ export default function Home() {
           <div className="container">
             <div className="flex items-center">
               <Image
-                src="/men/men-jordan.png"
+                src="/women/women-jordan.png"
                 alt="Air Jordan"
                 width={280}
                 height={280}
@@ -39,8 +39,8 @@ export default function Home() {
                   AIR <span className="font-semibold">JORDAN</span>
                 </p>
                 <p className="mb-6 mt-2 italic text-gray-500">
-                  Originally designed for basketball, Air Jordans are engineered
-                  to provide excellent support and traction on the court.
+                  Special designs with advanced comfort and durability, perfect
+                  for both athletic performance and casual wear.
                 </p>
                 <a
                   href="#list-products"
@@ -53,24 +53,24 @@ export default function Home() {
           </div>
         </div>
 
-        {/* AIR MONARCH SECTION  */}
+        {/* AIR FORCE SECTION  */}
         <div id="air-monarch" className="bg-platinum">
           <div className="container">
             <div className="flex items-center">
               <Image
-                src="/men/men-monarch.png"
-                alt="Air Monarch"
+                src="/women/women-force.png"
+                alt="Air FORCE 1"
                 width={300}
                 height={300}
                 className="mr-5"
               />
               <div>
                 <p className="text-2xl font-light">
-                  AIR <span className="font-semibold">MONARCH</span>
+                  AIR <span className="font-semibold">FORCE 1</span>
                 </p>
                 <p className="mb-6 mt-2 italic text-gray-500">
-                  The Air Monarch boasts a timeless and straightforward design,
-                  appealing to those who prefer an authentic athletic shoe look.
+                  Iconic design tailored with a sleek and contemporary aesthetic
+                  that appeals to modern tastes in footwear.
                 </p>
                 <a
                   href="#list-products"

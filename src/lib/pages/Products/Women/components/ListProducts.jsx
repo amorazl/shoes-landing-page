@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import { menProductsData } from "@/lib/constants/men";
+import { womenProductsData } from "@/lib/constants/women";
 import { formatCurrency } from "@/lib/utils";
 
 export default function ListProducts() {
@@ -12,7 +12,7 @@ export default function ListProducts() {
           <div className="mt-2 border-b border-raisin-black"></div>
         </div>
         <div className="grid grid-cols-2 gap-x-9 gap-y-16 md:grid-cols-4">
-          {menProductsData.map((item) => (
+          {womenProductsData.map((item) => (
             <div key={item.id} className="relative">
               <div className="bg-platinum p-5 py-10">
                 {item.tag && (

@@ -1,0 +1,58 @@
+export const womenProductsData = [
+  {
+    id: "01",
+    tag: "SALE",
+    img: "/women/women-01.png",
+    name: "Air Jordan 1 Retro High OG",
+    price: 2349000,
+  },
+  {
+    id: "02",
+    tag: "",
+    img: "/women/women-02.png",
+    name: "Air Force 1 Low",
+    price: 1799000,
+  },
+  {
+    id: "03",
+    tag: "",
+    img: "/women/women-03.png",
+    name: "Air Jordan 4 Retro",
+    price: 2579000,
+  },
+  {
+    id: "04",
+    tag: "HOT",
+    img: "/women/women-04.png",
+    name: "Air Force 1 Shadow",
+    price: 1999000,
+  },
+  {
+    id: "05",
+    tag: "SALE",
+    img: "/women/women-05.png",
+    name: "Air Jordan 3 Retro",
+    price: 1459000,
+  },
+  {
+    id: "06",
+    tag: "NEW",
+    img: "/women/women-06.png",
+    name: "Air Jordan 11 Retro",
+    price: 1579000,
+  },
+  {
+    id: "07",
+    tag: "",
+    img: "/women/women-07.png",
+    name: "Air Jordan 11",
+    price: 3899000,
+  },
+  {
+    id: "08",
+    tag: "",
+    img: "/women/women-force.png",
+    name: "Air Force 1 Sage Low",
+    price: 1149000,
+  },
+];

@@ -28,11 +28,11 @@ export default function Home() {
           <div className="container">
             <div className="flex items-center">
               <Image
-                src="/men-air jordan.png"
+                src="/men/men-jordan.png"
                 alt="Air Jordan"
-                width={300}
-                height={300}
-                className="mr-4"
+                width={280}
+                height={280}
+                className="mr-5"
               />
               <div>
                 <p className="text-2xl font-light">
@@ -58,7 +58,7 @@ export default function Home() {
           <div className="container">
             <div className="flex items-center">
               <Image
-                src="/men-air monarch.png"
+                src="/men/men-monarch.png"
                 alt="Air Monarch"
                 width={300}
                 height={300}

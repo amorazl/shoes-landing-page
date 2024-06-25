@@ -1,0 +1,58 @@
+export const menProductsData = [
+  {
+    id: "01",
+    tag: "NEW",
+    img: "/men/men-01.png",
+    name: "Nike Air Max 270",
+    price: 2349000,
+  },
+  {
+    id: "02",
+    tag: "SALE",
+    img: "/men/men-02.png",
+    name: "Nike Air Zoom Pegasus",
+    price: 1799000,
+  },
+  {
+    id: "03",
+    tag: "HOT",
+    img: "/men/men-03.png",
+    name: "Nike React Infinity Run",
+    price: 2579000,
+  },
+  {
+    id: "04",
+    tag: "NEW",
+    img: "/men/men-04.png",
+    name: "Nike Air Force 1",
+    price: 1999000,
+  },
+  {
+    id: "05",
+    tag: "SALE",
+    img: "/men/men-05.png",
+    name: "Nike Metcon",
+    price: 1459000,
+  },
+  {
+    id: "06",
+    tag: "NEW",
+    img: "/men/men-06.png",
+    name: "Nike Blazer Mid 77",
+    price: 1579000,
+  },
+  {
+    id: "07",
+    tag: "HOT",
+    img: "/men/men-jordan.png",
+    name: "Air Jordan 11",
+    price: 3899000,
+  },
+  {
+    id: "08",
+    tag: "SALE",
+    img: "/men/men-monarch.png",
+    name: "Nike Air Monarch IV",
+    price: 1149000,
+  },
+];

@@ -65,13 +65,13 @@ const Navbar = () => {
                 <DropdownMenuContent>
                   <DropdownMenuLabel>Categories</DropdownMenuLabel>
                   <DropdownMenuSeparator />
-                  <Link href="/products/men">
+                  <Link href="/men">
                     <DropdownMenuItem>MEN</DropdownMenuItem>
                   </Link>
-                  <Link href="/products/women">
+                  <Link href="/women">
                     <DropdownMenuItem>WOMEN</DropdownMenuItem>
                   </Link>
-                  <Link href="/products/kids">
+                  <Link href="/kids">
                     <DropdownMenuItem>KIDS</DropdownMenuItem>
                   </Link>
                 </DropdownMenuContent>
@@ -117,13 +117,13 @@ const Navbar = () => {
                 className="mb-4 cursor-pointer hover:border-b-2 hover:font-medium"
               >
                 PRODUCTS
-                <Link href="/products/men">
+                <Link href="/men">
                   <p className="ml-3 mt-2 text-sm">MEN</p>
                 </Link>
-                <Link href="/products/women">
+                <Link href="/women">
                   <p className="ml-3 mt-2 text-sm">WOMEN</p>
                 </Link>
-                <Link href="/products/kids">
+                <Link href="/kids">
                   <p className="ml-3 mt-2 text-sm">KIDS</p>
                 </Link>
               </li>

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 import { womenProductsData } from "@/lib/constants/women";
 import { formatCurrency } from "@/lib/utils";
@@ -11,27 +12,38 @@ export default function ListProducts() {
           <p className="font-semibold">NEWEST COLLECTION</p>
           <div className="mt-2 border-b border-raisin-black"></div>
         </div>
-        <div className="grid grid-cols-2 gap-x-9 gap-y-16 md:grid-cols-4">
+        <div className="grid grid-cols-2 gap-x-3 gap-y-16 md:grid-cols-4 xl:gap-x-9">
           {womenProductsData.map((item) => (
             <div key={item.id} className="relative">
               <div className="bg-platinum p-5 py-10">
                 {item.tag && (
-                  <div className="absolute right-5 top-5 rounded-xl bg-smoke px-3 py-1">
-                    <p className="text-gray-700">{item.tag}</p>
+                  <div className="absolute right-3 top-3 rounded-lg bg-smoke px-3 py-1 lg:right-5 lg:top-5">
+                    <p className="text-sm text-gray-700 md:text-base">
+                      {item.tag}
+                    </p>
                   </div>
                 )}
                 <div className="flex items-center justify-center">
-                  <Image
-                    src={item.img}
-                    alt="products"
-                    width={200}
-                    height={200}
-                  />
+                  <Link href={`/products/women/${item.id}`}>
+                    <Image
+                      src={item.img}
+                      alt="products"
+                      width={200}
+                      height={200}
+                      className="transition-transform duration-300 hover:scale-110"
+                    />
+                  </Link>
                 </div>
               </div>
               <div className="text-center">
-                <p className="mb-1 mt-4 text-lg font-semibold">{item.name}</p>
-                <p className="font-medium">{formatCurrency(item.price)}</p>
+                <Link href={`/products/women/${item.id}`}>
+                  <p className="mb-1 mt-4 text-base font-semibold transition visited:text-[#4f4dd4] hover:text-gray-500 lg:text-lg">
+                    {item.name}
+                  </p>
+                </Link>
+                <p className="text-sm font-medium lg:text-base">
+                  {formatCurrency(item.price)}
+                </p>
               </div>
             </div>
           ))}

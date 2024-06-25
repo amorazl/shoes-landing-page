@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       {/* MAIN COVER SECTION */}
-      <div id="main-cover" className="mb-3 bg-platinum">
+      <div id="main-cover-kids" className="mb-3 bg-platinum">
         <div className="container pb-16 pt-36">
           <p className="text-4xl font-light tracking-wider">
             DYNAMIC <span className="font-bold">KIDS</span>
@@ -24,27 +24,27 @@ export default function Home() {
 
       <div className="grid grid-cols-2 gap-3">
         {/* AIR JORDAN SECTION  */}
-        <div id="air-jordan" className="bg-platinum">
+        <div id="air-jordan-kids" className="bg-platinum">
           <div className="container">
-            <div className="flex items-center">
+            <div className="flex flex-col items-center pb-5 lg:flex-row xl:pb-2">
               <Image
                 src="/kids/kids-jordan.png"
                 alt="Air Jordan"
                 width={280}
                 height={280}
-                className="mr-5"
+                className="mr-0 lg:mr-5"
               />
               <div>
                 <p className="text-2xl font-light">
                   AIR <span className="font-semibold">JORDAN</span>
                 </p>
-                <p className="mb-6 mt-2 italic text-gray-500">
+                <p className="mb-6 mt-2 text-sm italic text-gray-500 md:text-base">
                   Kids Air Jordan bring a burst of fun and energy, combining
                   cool style for the most unbeatable active youngsters!
                 </p>
                 <a
                   href="#list-products"
-                  className="border-b-2 border-raisin-black text-sm font-medium"
+                  className="border-b-2 border-raisin-black text-xs font-medium md:text-sm"
                 >
                   VIEW NOW
                 </a>
@@ -54,27 +54,27 @@ export default function Home() {
         </div>
 
         {/* AIR FLIGHT SECTION  */}
-        <div id="air-monarch" className="bg-platinum">
+        <div id="air-flight" className="bg-platinum">
           <div className="container">
-            <div className="flex items-center">
+            <div className="flex flex-col items-center pb-5 lg:flex-row lg:pb-0 xl:pb-2">
               <Image
                 src="/kids/kids-flight.png"
                 alt="Air Flight"
-                width={300}
-                height={300}
-                className="mr-5"
+                width={280}
+                height={280}
+                className="mr-0 lg:mr-5"
               />
               <div>
                 <p className="text-2xl font-light">
                   AIR <span className="font-semibold">FLIGHT</span>
                 </p>
-                <p className="mb-6 mt-2 italic text-gray-500">
+                <p className="mb-6 mt-2 text-sm italic text-gray-500 md:text-base">
                   Nike Air Flight shoes for kids offer a perfect blend of
                   lightweight comfort, durable support, and stylish design.
                 </p>
                 <a
                   href="#list-products"
-                  className="border-b-2 border-raisin-black text-sm font-medium"
+                  className="border-b-2 border-raisin-black text-xs font-medium md:text-sm"
                 >
                   VIEW NOW
                 </a>

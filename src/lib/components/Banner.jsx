@@ -5,7 +5,7 @@ export default function Banner() {
     <>
       <div className="relative my-24 bg-platinum py-20">
         <div className="container relative z-20">
-          <div className="relative z-10 ml-48">
+          <div className="relative z-10 ml-0 lg:ml-24 xl:ml-48">
             <div>
               <p className="text-4xl font-bold">NIKE.</p>
               <p className="mt-2 text-lg font-normal tracking-wider text-gray-600">
@@ -17,7 +17,7 @@ export default function Banner() {
               alt="Banner Image"
               width={400}
               height={400}
-              className="absolute right-0 top-0 z-20 -mt-40 mr-56"
+              className="absolute right-0 top-0 z-20 -mt-40 mr-0 hidden lg:mr-24 lg:block xl:mr-56"
             />
           </div>
         </div>

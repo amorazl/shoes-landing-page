@@ -38,7 +38,7 @@ const Navbar = () => {
   }, [isOpen]);
 
   return (
-    <nav id="navbar" className="fixed z-10 h-20 w-full bg-smoke shadow-sm">
+    <nav id="navbar" className="fixed z-50 h-20 w-full bg-smoke shadow-sm">
       <div className="mx-auto flex h-full w-full items-center justify-between px-6 md:px-20 2xl:px-16">
         <Link href="/">
           <Image

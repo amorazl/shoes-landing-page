@@ -15,14 +15,14 @@ export const menProductsData = [
   },
   {
     id: "03",
-    tag: "HOT",
+    tag: "",
     img: "/men/men-03.png",
     name: "Nike React Infinity Run",
     price: 2579000,
   },
   {
     id: "04",
-    tag: "NEW",
+    tag: "",
     img: "/men/men-04.png",
     name: "Nike Air Force 1",
     price: 1999000,
@@ -36,7 +36,7 @@ export const menProductsData = [
   },
   {
     id: "06",
-    tag: "NEW",
+    tag: "",
     img: "/men/men-06.png",
     name: "Nike Blazer Mid 77",
     price: 1579000,
@@ -50,7 +50,7 @@ export const menProductsData = [
   },
   {
     id: "08",
-    tag: "SALE",
+    tag: "",
     img: "/men/men-monarch.png",
     name: "Nike Air Monarch IV",
     price: 1149000,

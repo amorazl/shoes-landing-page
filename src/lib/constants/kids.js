@@ -5,6 +5,8 @@ export const kidsProductsData = [
     img: "/kids/kids-01.png",
     name: "Nike Sabrina 2",
     price: 2099000,
+    categories: "Kids, Shoes, Clothing",
+    type: "Air Flight",
   },
   {
     id: "02",
@@ -12,6 +14,8 @@ export const kidsProductsData = [
     img: "/kids/kids-02.png",
     name: "Air Flight Lite",
     price: 1549000,
+    categories: "Kids, Shoes, Clothing",
+    type: "Air Flight",
   },
   {
     id: "03",
@@ -19,6 +23,8 @@ export const kidsProductsData = [
     img: "/kids/kids-03.png",
     name: "Air Jordan 4 Retro",
     price: 2399000,
+    categories: "Kids, Shoes, Clothing",
+    type: "Air Jordan",
   },
   {
     id: "04",
@@ -26,6 +32,8 @@ export const kidsProductsData = [
     img: "/kids/kids-04.png",
     name: "Air Jordan 1 Mid",
     price: 1899000,
+    categories: "Kids, Shoes, Clothing",
+    type: "Air Jordan",
   },
   {
     id: "05",
@@ -33,6 +41,8 @@ export const kidsProductsData = [
     img: "/kids/kids-05.png",
     name: "Air Jordan 12 Retro",
     price: 1499000,
+    categories: "Kids, Shoes, Clothing",
+    type: "Air Jordan",
   },
   {
     id: "06",
@@ -40,6 +50,8 @@ export const kidsProductsData = [
     img: "/kids/kids-06.png",
     name: "Air Jordan 13 Retro",
     price: 1629000,
+    categories: "Kids, Shoes, Clothing",
+    type: "Air Jordan",
   },
   {
     id: "07",
@@ -47,6 +59,8 @@ export const kidsProductsData = [
     img: "/kids/kids-jordan.png",
     name: "Air Jordan 11",
     price: 2999000,
+    categories: "Kids, Shoes, Clothing",
+    type: "Air Jordan",
   },
   {
     id: "08",
@@ -54,5 +68,7 @@ export const kidsProductsData = [
     img: "/kids/kids-flight.png",
     name: "Nike Air Flight 89",
     price: 1249000,
+    categories: "Kids, Shoes, Clothing",
+    type: "Air Flight",
   },
 ];

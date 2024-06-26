@@ -5,6 +5,8 @@ export const womenProductsData = [
     img: "/women/women-01.png",
     name: "Air Jordan 1 Retro High OG",
     price: 2349000,
+    categories: "Women, Shoes, Clothing",
+    type: "Air Jordan",
   },
   {
     id: "02",
@@ -12,6 +14,8 @@ export const womenProductsData = [
     img: "/women/women-02.png",
     name: "Air Force 1 Low",
     price: 1799000,
+    categories: "Women, Shoes, Clothing",
+    type: "Air Force 1",
   },
   {
     id: "03",
@@ -19,6 +23,8 @@ export const womenProductsData = [
     img: "/women/women-03.png",
     name: "Air Jordan 4 Retro",
     price: 2579000,
+    categories: "Women, Shoes, Clothing",
+    type: "Air Jordan",
   },
   {
     id: "04",
@@ -26,6 +32,8 @@ export const womenProductsData = [
     img: "/women/women-04.png",
     name: "Air Force 1 Shadow",
     price: 1999000,
+    categories: "Women, Shoes, Clothing",
+    type: "Air Force 1",
   },
   {
     id: "05",
@@ -33,6 +41,8 @@ export const womenProductsData = [
     img: "/women/women-05.png",
     name: "Air Jordan 3 Retro",
     price: 1459000,
+    categories: "Women, Shoes, Clothing",
+    type: "Air Jordan",
   },
   {
     id: "06",
@@ -40,6 +50,8 @@ export const womenProductsData = [
     img: "/women/women-06.png",
     name: "Air Jordan 11 Retro",
     price: 1579000,
+    categories: "Women, Shoes, Clothing",
+    type: "Air Jordan",
   },
   {
     id: "07",
@@ -47,6 +59,8 @@ export const womenProductsData = [
     img: "/women/women-07.png",
     name: "Air Jordan 11",
     price: 3899000,
+    categories: "Women, Shoes, Clothing",
+    type: "Air Jordan",
   },
   {
     id: "08",
@@ -54,5 +68,7 @@ export const womenProductsData = [
     img: "/women/women-force.png",
     name: "Air Force 1 Sage Low",
     price: 1149000,
+    categories: "Women, Shoes, Clothing",
+    type: "Air Force 1",
   },
 ];

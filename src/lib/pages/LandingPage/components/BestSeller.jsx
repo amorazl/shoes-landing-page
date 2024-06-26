@@ -1,19 +1,12 @@
-import { useState } from "react";
 import Image from "next/image";
-import { IoStar } from "react-icons/io5";
 
+import { useState } from "react";
+import { IoStar } from "react-icons/io5";
+import { formatCurrency } from "@/lib/utils";
 import { bestSellerData } from "@/lib/constants/best-seller";
 
 export default function BestSeller() {
   const [hovered, setHovered] = useState(null);
-
-  function formatCurrency(amount) {
-    return new Intl.NumberFormat("id-ID", {
-      style: "currency",
-      currency: "IDR",
-      minimumFractionDigits: 0,
-    }).format(amount);
-  }
 
   return (
     <>

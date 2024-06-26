@@ -13,7 +13,7 @@ export default function ProductDetail() {
         pageDescription="Explore Our Collection."
       />
       <main className="container min-h-screen bg-smoke pt-32">
-        <div className="grid grid-cols-1 gap-16 md:grid-cols-2">
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:gap-16">
           <div className="flex items-center justify-center bg-platinum">
             <Image src="/men/men-jordan.png" alt="" width={400} height={400} />
           </div>
@@ -23,8 +23,8 @@ export default function ProductDetail() {
               Rp12.000.000
             </p>
 
-            <section id="size" className="my-7 inline-block">
-              <div className="mb-3 flex justify-between">
+            <section id="shoe-size" className="my-7 inline-block">
+              <div className="mb-3 flex flex-wrap justify-between">
                 <p className="font-medium">Size Available</p>
                 <a href="https://www.nike.com/size-fit/mens-footwear">
                   <p className="font-medium text-gray-400 duration-200 hover:text-gray-600">
@@ -32,7 +32,7 @@ export default function ProductDetail() {
                   </p>
                 </a>
               </div>
-              <div className="flex gap-2">
+              <div className="flex flex-wrap gap-2">
                 {shoesSizeData.map((item, i) => (
                   <div
                     key={i}
@@ -60,7 +60,7 @@ export default function ProductDetail() {
                 </span>
               </p>
               <p className="text font-semibold">
-                Tag:
+                Type:
                 <span className="text-base font-normal text-gray-600">
                   {" "}
                   Air Jordan
@@ -70,7 +70,7 @@ export default function ProductDetail() {
           </div>
         </div>
 
-        <div className="mx-32 mb-16 mt-12 text-center">
+        <div className="mx-0 mb-16 mt-12 text-center lg:mx-32">
           <div className="mb-8 mt-5 inline-block items-center">
             <p className="font-semibold">DESCRIPTION</p>
             <div className="mt-2 border-b border-raisin-black"></div>

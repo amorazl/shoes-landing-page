@@ -4,21 +4,31 @@ export default function Home() {
   return (
     <>
       {/* MAIN COVER SECTION */}
-      <div id="main-cover-kids" className="mb-3 bg-platinum">
-        <div className="container pb-16 pt-36">
-          <p className="text-4xl font-light tracking-wider">
-            DYNAMIC <span className="font-bold">KIDS</span>
-          </p>
-          <p className="mb-12 mt-3 text-gray-500">
-            Our kids shoes offer the best in quality and fashion to keep them
-            moving confidently.
-          </p>
-          <a
-            href="#list-products"
-            className="border-b-2 border-raisin-black text-sm font-medium"
-          >
-            VIEW NOW
-          </a>
+      <div id="main-cover-kids" className="mb-3 bg-platinum pb-16 pt-36">
+        <div className="container flex flex-col items-center justify-center md:flex-row">
+          <div className="md:w-1/2">
+            <p className="text-4xl font-light tracking-wider">
+              DYNAMIC <span className="font-bold">KIDS</span>
+            </p>
+            <p className="mb-12 mt-3 text-gray-500">
+              Our kids shoes offer the best in quality and fashion to keep them
+              moving confidently.
+            </p>
+            <a
+              href="#list-products"
+              className="border-b-2 border-raisin-black text-sm font-medium"
+            >
+              VIEW NOW
+            </a>
+          </div>
+          <div className="mt-12 flex justify-center md:mt-0 md:w-1/2">
+            <Image
+              src="/red-cover.png"
+              alt="men-cover"
+              width={500}
+              height={500}
+            />
+          </div>
         </div>
       </div>
 

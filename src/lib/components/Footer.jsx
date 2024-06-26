@@ -53,7 +53,7 @@ export default function Footer() {
             <div className="col-span-4 md:col-span-3 lg:col-span-2 xl:col-span-1">
               <div className="flex flex-col">
                 <p className="text-xl font-bold">Explore</p>
-                <Link href="/men" className="menu-link mt-5">
+                <Link href="/women" className="menu-link mt-5">
                   Products
                 </Link>
                 <Link href="/about-us" className="menu-link mt-3">

@@ -9,7 +9,7 @@ export default function Categories() {
       <div className="my-10 py-10">
         <p className="font-semibold text-gray-700">SEARCH BY CATEGORIES</p>
         <div className="mb-7 mt-3 border-b border-gray-500"></div>
-        <div className="mx-0 flex flex-col justify-evenly gap-6 md:flex-row md:gap-12 lg:gap-24 xl:mx-28">
+        <div className="mx-0 flex flex-col justify-evenly gap-6 md:flex-row md:gap-12 lg:mx-12 lg:gap-16 xl:mx-28 xl:gap-24">
           {categoriesData.map((item) => (
             <div key={item}>
               <p className="mb-2 mt-5 text-2xl font-bold tracking-wider">

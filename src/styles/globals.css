@@ -83,6 +83,10 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .menu-link {
   position: relative;
   padding-bottom: 3px;

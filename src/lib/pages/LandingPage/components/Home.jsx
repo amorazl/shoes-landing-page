@@ -59,7 +59,10 @@ export default function Home() {
                 <div className="absolute left-1/2 top-full mt-3 w-40 -translate-x-1/2 transform rounded-lg bg-smoke p-2 text-center text-black shadow-lg">
                   <div className="relative">
                     <div className="absolute left-1/2 top-[-8px] h-0 w-0 -translate-x-1/2 border-transparent border-b-smoke"></div>
-                    <Link href="/products" className="hover:text-gray-600">
+                    <Link
+                      href="/men"
+                      className="duration-200 ease-in-out hover:text-gray-600"
+                    >
                       See What&apos;s New!
                     </Link>
                   </div>

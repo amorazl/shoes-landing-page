@@ -7,7 +7,7 @@ import { formatCurrency } from "@/lib/utils";
 export default function ListProducts() {
   return (
     <>
-      <main className="container py-16">
+      <main id="list-products" className="container py-16">
         <div className="mb-10 mt-5 inline-block">
           <p className="font-semibold">NEWEST COLLECTION</p>
           <div className="mt-2 border-b border-raisin-black"></div>
@@ -17,7 +17,7 @@ export default function ListProducts() {
             <div key={item.id} className="relative">
               <div className="bg-platinum p-5 py-10">
                 {item.tag && (
-                  <div className="absolute right-3 top-3 rounded-lg bg-smoke px-3 py-1 lg:right-5 lg:top-5">
+                  <div className="absolute right-3 top-3 rounded-lg bg-smoke px-3 py-1 lg:right-4 lg:top-4">
                     <p className="text-sm text-gray-700 md:text-base">
                       {item.tag}
                     </p>

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 import { useState } from "react";
 import { IoStar } from "react-icons/io5";
@@ -30,9 +31,11 @@ export default function BestSeller() {
                 {hovered === item.id && (
                   <>
                     <div className="absolute inset-0 rounded-xl bg-gray-600 opacity-25 transition-opacity duration-300"></div>
-                    <button className="absolute left-1/2 top-1/2 h-24 w-24 -translate-x-1/2 -translate-y-1/2 transform rounded-full bg-white p-3 text-black shadow-lg transition-transform duration-300 ease-in-out hover:scale-105">
-                      View
-                    </button>
+                    <Link href="/product-detail">
+                      <button className="absolute left-1/2 top-1/2 h-24 w-24 -translate-x-1/2 -translate-y-1/2 transform rounded-full bg-white p-3 text-black shadow-lg transition-transform duration-300 ease-in-out hover:scale-105">
+                        View
+                      </button>
+                    </Link>
                   </>
                 )}
               </div>

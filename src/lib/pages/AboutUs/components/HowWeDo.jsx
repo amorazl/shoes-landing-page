@@ -8,7 +8,7 @@ export default function HowWeDo() {
       <p className="mb-3 text-center text-2xl font-bold text-midnight">
         HOW WE DO
       </p>
-      <div className="mx-auto mb-10 w-20 border-b-2 border-midnight"></div>
+      <div className="mx-auto mb-10 w-24 border-b-2 border-midnight"></div>
       <div className="bg-[#d2d4d8] py-5">
         <div className="container">
           <div className="grid grid-cols-1 gap-x-12 gap-y-10 md:grid-cols-2 lg:grid-cols-3">

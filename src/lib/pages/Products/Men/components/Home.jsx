@@ -4,21 +4,31 @@ export default function Home() {
   return (
     <>
       {/* MAIN COVER SECTION */}
-      <div id="main-cover-men" className="mb-3 bg-platinum">
-        <div className="container pb-16 pt-36">
-          <p className="text-4xl font-light tracking-wider">
-            MOVE IT <span className="font-bold">MEN</span>
-          </p>
-          <p className="mb-12 mt-3 text-gray-500">
-            Hitting the gym, running the track, or stepping outside, find your
-            perfect pair.
-          </p>
-          <a
-            href="#list-products"
-            className="border-b-2 border-raisin-black text-sm font-medium"
-          >
-            VIEW NOW
-          </a>
+      <div id="main-cover-men" className="mb-3 bg-platinum pb-16 pt-36">
+        <div className="container flex flex-col items-center justify-center md:flex-row">
+          <div className="md:w-1/2">
+            <p className="text-4xl font-light tracking-wider">
+              MOVE IT <span className="font-bold">MEN</span>
+            </p>
+            <p className="mb-12 mt-3 text-gray-500">
+              Hitting the gym, running the track, or stepping outside, find your
+              perfect pair.
+            </p>
+            <a
+              href="#list-products"
+              className="border-b-2 border-raisin-black text-sm font-medium"
+            >
+              VIEW NOW
+            </a>
+          </div>
+          <div className="mt-12 flex justify-center md:mt-0 md:w-1/2">
+            <Image
+              src="/blue-cover.png"
+              alt="men-cover"
+              width={500}
+              height={500}
+            />
+          </div>
         </div>
       </div>
 
